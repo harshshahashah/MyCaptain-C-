@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    float num1;
+    float num2;
+    cout << "Enter two numbers :";
+    cin >> num1 >> num2;
+    float res = num1 * num2;
+    cout << "Product : " << res;
+}
